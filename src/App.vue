@@ -1,22 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/HeaderApp.vue"
 </script>
 
 <template>
-  <HelloWorld msg="Maik Fazendo um Teste" />
+    <Header pageTitle="Home"/>
+    <HelloWorld msg="Maik Fazendo um Teste" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
